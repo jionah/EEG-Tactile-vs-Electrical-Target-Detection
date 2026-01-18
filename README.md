@@ -6,7 +6,7 @@ Förster, J., Vardiero, G., Nierhaus, T., & Blankenburg, F. (2025). ERP response
 Preprocessed data to use with this code are available on Figshare: https://dx.doi.org/10.6084/m9.figshare.31081684
 
 ## Note:
-Scripts x00-x08 rely heavily on work by Pia Schröder, to whom I owe a great deal: https://github.com/PiaSchroeder/SomatosensoryTargetDetection_EEG/tree/main
+Scripts x00-x08 rely heavily on work by Pia Schröder, to which I owe a great deal: https://github.com/PiaSchroeder/SomatosensoryTargetDetection_EEG/tree/main
 
 ## Requires:
 - SPM12: https://www.fil.ion.ucl.ac.uk/spm/software/spm12/
