@@ -20,8 +20,6 @@ Scripts x00-x08 rely heavily on work by Pia Schröder, to which I owe a great de
 
   - x00_TacElec_eeg_check_pfs.m
   - x01_TacElec_eeg_behaviour.m
-  - fit_logistic.m
-  - load_logs.m
 
 ### Bayesian 1st level GLMs:
 
