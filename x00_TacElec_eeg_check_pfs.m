@@ -23,7 +23,7 @@ for g = 1:numel(groups)
     group = groups{g};
 
     if strcmp(group,'Tactile')
-        % 29 SJs (4 excluded; logs of excluded VP26 [1:3 5:7] lost after publication, can mostly be recovered from raw data)
+        % 29 SJs (4 excluded)
         SJs  = { 'VP01' 'VP02' 'VP03' 'VP04' 'VP05' 'VP06'      'VP07' 'VP08' 'VP09' 'VP10' 'VP11' 'VP12' 'VP13' 'VP14'   'VP15'  'VP16' 'VP17' 'VP18'    'VP19'     'VP20'    'VP21'  'VP22'   'VP24' 'VP25'   'VP27'  'VP28'  'VP29'  'VP30'};
         runs = {[1 3:7]  2:7   2:8  [1:5 7] [1:5 7] [1:2 4:8]   1:7    1:7   [1:5 8]  1:7    1:7    2:7    1:6 [1:4 6:7] [1:3 5:7] 1:7    1:6 [1:4 6:7] [1:2 4 6:8] [1:4 7:8] [1 3:8] [1:2 4:8]  1:6    3:8   [1 3:8]  [1 3:8]  2:7  [1 3:5 7:8]};
         meancol = [0.49, 0.73, 0.91]; % Maya blue
@@ -254,4 +254,5 @@ end
 
 
 end
+
 
